@@ -1,0 +1,8 @@
+version: "3.8"  
+ 
+services: 
+  tor: 
+    ports: 
+      - "9050:9050"
+      - "53:53" 
+    image: "latentwhisper/tor:latest" 
